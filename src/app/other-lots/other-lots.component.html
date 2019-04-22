@@ -1,0 +1,10 @@
+<div style="text-align: center; padding: 10px">
+  <form [formGroup]="lotForm">
+    <select style="height: 50px; font-size: 16pt" formControlName="lotControl" (change)="onChange($event.target.value)">
+      <option [value]="oneLot" *ngFor="let oneLot of allLots">
+        {{oneLot}}</option>
+    </select>
+  </form>
+</div>
+
+<h1>Currently Unavailable</h1>

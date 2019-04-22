@@ -1,0 +1,10 @@
+<div *ngIf="space.taken" class="red-dot"
+     [ngStyle]="{'top': space.yCoord + 'px', 'left': space.xCoord + 'px'}">
+</div>
+
+<div *ngIf="!space.taken && space.type !== 'accessible'" class="green-dot"
+     [ngStyle]="{'top': space.yCoord + 'px', 'left': space.xCoord + 'px'}">
+</div>
+<div *ngIf="!space.taken && space.type === 'accessible'" class="blue-dot"
+     [ngStyle]="{'top': space.yCoord + 'px', 'left': space.xCoord + 'px'}">
+</div>

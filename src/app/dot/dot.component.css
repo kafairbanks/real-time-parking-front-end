@@ -1,0 +1,23 @@
+.red-dot {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: #FF0000;
+}
+
+.green-dot {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: #00FF00;
+}
+
+.blue-dot {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: #0000FF;
+}

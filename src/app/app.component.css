@@ -1,0 +1,45 @@
+* {
+  font-family: Helvetica;
+}
+
+footer {
+  position: absolute;
+  top: 900px;
+  left: 450px;
+}
+
+nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+}
+nav a:visited, a:link {
+  color: #500000;
+}
+nav a:hover {
+  color: #FFFFFF;
+  background-color: #500000;
+}
+nav a.active {
+  color: #FFFFFF;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #500000;
+  text-align: center;
+}
+
+.title {
+  color: white;
+}
+
+.AMLogo {
+  position: absolute;
+  top: 27px;
+  right: 15px;
+  height: 25px;
+  width: 25px;
+}

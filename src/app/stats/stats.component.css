@@ -1,0 +1,14 @@
+* {
+  font-family: Helvetica;
+}
+
+img {
+  height: 200px;
+  float: right;
+  margin-right: 150px;
+}
+
+.title {
+  color: black;
+  text-align: center;
+}

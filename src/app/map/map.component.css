@@ -1,0 +1,59 @@
+* {
+  font-family: Helvetica;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  height: 700px;
+  width: 720px;
+  margin-right: 10px;
+}
+
+td {
+  padding: 5px;
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 7px;
+}
+
+table, th {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 7px;
+}
+
+.lotTitle {
+  color: black;
+  text-align: center;
+}
+
+.taken {
+  color: white;
+  background-color: #FF0000;
+}
+
+.notTaken {
+  color: black;
+  background-color: #00FF00;
+}
+
+.notTakenAccessible {
+  color: white;
+  background-color: #0000FF;
+}
+
+.picture {
+  position: relative;
+  float: right;
+}
+
+.AMLogo {
+  float: right;
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
